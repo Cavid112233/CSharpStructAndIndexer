@@ -55,5 +55,10 @@
             }
             return searchBooks;
         }
+
+        public Book[] ShowAllBooks()
+        {
+            return Books;
+        }
     }
 }
